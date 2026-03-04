@@ -1,0 +1,91 @@
+body {
+    background-color: #a2c9e0; /* Match the blue background */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.main-container {
+    width: 500px;
+    text-align: center;
+}
+
+.search-box {
+    margin-bottom: 20px;
+}
+
+/* The Gold Bordered Card from the screenshot */
+.poke-card {
+    background-color: white;
+    border: 8px solid #f0d466; /* Gold/Yellow border */
+    border-radius: 40px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+#pokeImg {
+    width: 150px;
+    height: 150px;
+}
+
+.audio-container {
+    margin: 15px 0;
+}
+
+/* 2x2 Grid for moves */
+.moves-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+}
+
+#addToTeamBtn {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Team section styling */
+.team-member {
+    background: white;
+    border: 2px solid #f0d466;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.poke-card {
+    background-color: white;
+    border: 8px solid #f0d466; /* The Gold/Yellow border */
+    border-radius: 40px;
+    padding: 30px;
+    margin: 20px auto;
+    width: 350px;
+    /* We use visibility: hidden so it takes up space but stays invisible until search */
+    visibility: hidden; 
+}
+
+.moves-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2x2 grid for moves */
+    gap: 10px;
+    margin: 15px 0;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
